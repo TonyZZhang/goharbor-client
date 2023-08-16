@@ -38,6 +38,9 @@ type ProjectMetadata struct {
 
 	// If the vulnerability is high than severity defined here, the images can't be pulled. The valid values are "none", "low", "medium", "high", "critical".
 	Severity *string `json:"severity,omitempty"`
+
+	// Tenant
+	Tenant *string `json:"tenant,omitempty"`
 }
 
 // Validate validates this project metadata

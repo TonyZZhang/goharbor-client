@@ -20,14 +20,14 @@ Install the desired client library version using `go get`:
 
 ```shell script
 # v1 Client
-go get github.com/mittwald/goharbor-client/v5/apiv1
+go get github.com/TonyZZhang/goharbor-client/v5/apiv1
 ```
 
 or
 
 ```shell script
 # v2 Client
-go get github.com/mittwald/goharbor-client/v5/apiv2
+go get github.com/TonyZZhang/goharbor-client/v5/apiv2
 ```
 
 ## Contributing
