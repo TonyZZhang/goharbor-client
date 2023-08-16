@@ -11,9 +11,9 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/stretchr/testify/require"
 
-	v2client "github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client"
-	"github.com/mittwald/goharbor-client/v5/apiv2/pkg/config"
-	integrationtest "github.com/mittwald/goharbor-client/v5/apiv2/pkg/testing"
+	v2client "github.com/TonyZZhang/goharbor-client/v5/apiv2/internal/api/client"
+	"github.com/TonyZZhang/goharbor-client/v5/apiv2/pkg/config"
+	integrationtest "github.com/TonyZZhang/goharbor-client/v5/apiv2/pkg/testing"
 )
 
 var (
