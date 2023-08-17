@@ -1,6 +1,6 @@
 module github.com/TonyZZhang/goharbor-client/v5
 
-go 1.20
+go 1.18
 
 require (
 	github.com/go-openapi/errors v0.20.3
@@ -8,10 +8,9 @@ require (
 	github.com/go-openapi/strfmt v0.21.3
 	github.com/go-openapi/swag v0.22.3
 	github.com/go-openapi/validate v0.22.1
-	github.com/goharbor/harbor/src v0.0.0-20230220075213-6015b3efa7d0
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.2
-	k8s.io/apimachinery v0.26.2
+	k8s.io/apimachinery v0.23.13
 
 )
 
@@ -37,7 +36,6 @@ require (
 	go.mongodb.org/mongo-driver v1.11.2 // indirect
 	go.opentelemetry.io/otel v1.14.0 // indirect
 	go.opentelemetry.io/otel/trace v1.14.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.90.1 // indirect
