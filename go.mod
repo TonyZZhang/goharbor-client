@@ -8,9 +8,10 @@ require (
 	github.com/go-openapi/strfmt v0.21.3
 	github.com/go-openapi/swag v0.22.3
 	github.com/go-openapi/validate v0.22.1
+	github.com/goharbor/harbor/src v0.0.0-20230817012923-d98699b5fcc2
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.2
-	k8s.io/apimachinery v0.23.13
+	k8s.io/apimachinery v0.26.2
 
 )
 
@@ -40,3 +41,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.90.1 // indirect
 )
+
+replace k8s.io/apimachinery v0.26.2 => k8s.io/apimachinery v0.23.13
